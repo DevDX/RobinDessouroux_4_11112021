@@ -29,8 +29,8 @@ figure {
     min-width: 220px;
     margin: auto;
 }
-.keywords{
-    border:solid purple;
+.keywords {
+    /*border:solid purple;*/
     margin-bottom:30px;
     min-height:50px;
 }
