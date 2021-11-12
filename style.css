@@ -34,10 +34,12 @@ figure {
     margin-bottom:30px;
     min-height:50px;
 }
+
 .linkcolor
 {
     color:#FAD5C4!important;
 }
+
 a,
 button {
     transition: all .3s ease-in-out;
