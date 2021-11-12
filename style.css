@@ -29,7 +29,11 @@ figure {
     min-width: 220px;
     margin: auto;
 }
-
+.keywords{
+    border:solid purple;
+    margin-bottom:30px;
+    min-height:50px;
+}
 a,
 button {
     transition: all .3s ease-in-out;
