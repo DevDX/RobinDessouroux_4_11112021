@@ -37,9 +37,13 @@ figure {
 
 .linkcolor
 {
-    color:#FAD5C4!important;
+    /*color:#FAD5C4!important;*/color:#303030!important;background-color: #ffbb7d;
 }
-
+/*RDX à vérifier début*/
+.d-bloc a:hover .icon-md {
+    color:#4400a2!important; 
+}
+/*RDX à vérifier fin*/
 a,
 button {
     transition: all .3s ease-in-out;
@@ -156,7 +160,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+/*.d-bloc a .icon-md, rdx test */
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -164,8 +168,9 @@ a:hover {
 .d-bloc h3 a,
 .d-bloc h4 a,
 .d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
+.d-bloc h6 a/*,
+.d-bloc p a rdx test */
+{
     color: rgba(255, 255, 255, .6);
 }
 
@@ -173,7 +178,7 @@ a:hover {
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
+/*.d-bloc a:hover .icon-md, rdx test */
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -737,7 +742,8 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+
+    h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
@@ -804,16 +810,19 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    /*background-color: #F3976C;*/background-color: #ffbb7d;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    /*color: #F3976C!important; test rdx color: #ffbb7d!important;*/color:#FFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    /*background: #F3976C;
+    color: #FFFFFF!important; test rdx */
+    background-color: #ffbb7d;
+    color: #303030!important;
+    
 }
 
 .btn-atomic-tangerine:hover {
