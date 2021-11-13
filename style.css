@@ -49,15 +49,35 @@ figure {
     display: flex;
     /*flex-direction: row;
     flex-wrap: wrap;
-    gap:20px;*/
+    gap:25px;*/
     flex-direction: column;
-    gap:10px;
+    /*gap:2px;*/
     min-width: 200px;
-    width:75%;
+    width:90%;
+    /*border:solid red;*/
+}
+.FlexElt
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*gap:20px;*/
+    min-width: 200px;
+    width:100%;
+    /*border:solid green;*/
+    margin-bottom: 15px;
 }
 .btn-form
 {
     max-width: 300px;
+}
+.h2form
+{
+    max-width: 300px;
+    height:35px;
+    color:#303030;font-weight:700;
+    background-color:#ffbb7d;
+    text-align: center;
 }
 
 a,
@@ -832,7 +852,9 @@ h4 {
 .tc-white {
     /*color: #F3976C!important; test rdx color: #ffbb7d!important;*/color:#FFFF!important;
 }
-
+.tc-darkgrey {
+    color:#303030!important; /*rdx à vérifier*/
+}
 .btn-atomic-tangerine {
     /*background: #F3976C;
     color: #FFFFFF!important; test rdx */
