@@ -44,6 +44,18 @@ figure {
     color:#4400a2!important; 
 }
 /*RDX à vérifier fin*/
+.FlexCont
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 200px;
+    width:75%;
+}
+.btn-form
+{
+    max-width: 300px;
+}
 a,
 button {
     transition: all .3s ease-in-out;
