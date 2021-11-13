@@ -88,13 +88,13 @@
 						
 						
     					<label>email :</label>
-						<input class="FlexCont" type="email" required placeholder="Saisissez-votre email"/> 
+						<input class="FlexCont" type="email" name="email" required placeholder="Saisissez-votre email" aria-label="nom"/> 
 						 	
     					<label>Comment nous avez-vous connu :</label>
-						<input class="FlexCont" type="text" name="how" />
+						<input class="FlexCont" type="text" name="origine" aria-label="origine" />
 					 
 						<label>Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
-						<textarea id="message" class="form-control FlexCont" rows="4" cols="50" required></textarea>
+						<textarea id="message" class="form-control FlexCont" name="message" rows="4" cols="50" required aria-label="message"></textarea>
 						 
 						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine btn-form" type="submit">
 							Envoyer
